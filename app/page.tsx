@@ -1,7 +1,3 @@
-// app/page.tsx (or pages/index.tsx)
-
-import React from "react";
-
 const skills = {
   "Languages & Frameworks": [
     "TypeScript",
@@ -43,7 +39,16 @@ const mainProjects = [
     description:
       "Nationwide driving school directory with SEO-optimized SSR pages, geolocation search, and AI-assisted data extraction pipelines.",
     role: "Lead Engineer · Avivar Inc",
-    link: "https://drivingcourses.com", // adjust if different
+    link: "https://drivingcourses.com",
+  },
+  {
+    title: "BudgetReveal — AI-Enhanced Personal Budgeting App",
+    year: "2025",
+    stack: ["Next.js", "TypeScript", "Node.js"],
+    description:
+      "An intelligent budgeting platform that lets users upload bank statements and receive categorized spending insights. Features include swipe-based classification, recurring-payment detection, automated summaries, and real-time budget projections. Built a mobile-first UI and optimized parsing flows for large CSV/PDF files.",
+    role: "Creator / Full-Stack Developer",
+    link: "https://budgetreveal.vercel.app",
   },
   {
     title: "BuzzDoc — AI Document Analysis",
@@ -52,7 +57,7 @@ const mainProjects = [
     description:
       "AI-powered app that analyzes uploaded documents and returns structured insights. Built and demoed before ChatGPT existed.",
     role: "Founder / Developer",
-    link: "https://buzzdoc.vercel.app", // or https://buzzdoc.vercel.app
+    link: "https://buzzdoc.vercel.app",
   },
   {
     title: "Pool Party DApp",
@@ -70,7 +75,7 @@ const mainProjects = [
     description:
       "On-chain game platform that reached 3,000+ daily active users in four months. Built UI, wallet flows, and core game logic.",
     role: "Founding Full-Stack Developer",
-    link: "https://www.justcoinflip.xyz", // currently offline, but fine as a link
+    link: "https://www.justcoinflip.xyz",
   },
   {
     title: "Enterprise Management Platform",
@@ -246,7 +251,7 @@ export default function PortfolioPage() {
                 GitHub
               </a>
               <a
-                href="https://www.linkedin.com" // TODO: replace with your real profile
+                href="https://www.linkedin.com/in/fwara"
                 target="_blank"
                 rel="noreferrer"
                 className="rounded-full border border-slate-600 px-5 py-2 text-sm font-medium text-slate-100 transition hover:border-sky-400 hover:text-sky-300"
